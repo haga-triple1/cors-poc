@@ -1,4 +1,16 @@
-# cors-poc
+# CORS PoC
+
+# Concepts
+1. クロスオリジンのリクエストについて、レスポンスヘッダーに何を設定すべきか
+
+- Access-Control-Allow-Origin
+- Access-Control-Allow-Credentials
+
+1. クロスオリジンの非単純リクエストについて、レスポンスヘッダーに何を設定すべきか
+
+- Access-Control-Allow-Origin
+- Access-Control-Allow-Credentials
+- Access-Control-Allow-Headers（具体的な送信される値を設定する必要がある）
 
 # 起動
 ## バックエンド
@@ -12,6 +24,8 @@ npx nest start -w
 cd frontend
 npx vite
 ```
+
+
 
 # 検証方法
 以下の手順を経て、cookieの値（cors-poc-dummy=dummy）がalertで表示されればOK
