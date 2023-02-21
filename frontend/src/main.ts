@@ -16,7 +16,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </div>
 `
 
-fetch("http://localhost:8080/credential",{
+fetch("http://127.0.0.1:8080/credential",{
   credentials: "include",
   headers: {
     "x-hogehoge": "fuga",
