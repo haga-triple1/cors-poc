@@ -1,6 +1,6 @@
 # CORS PoC
 
-# Concepts
+# Concepts 
 1. クロスオリジンのリクエストについて、レスポンスヘッダーに何を設定すべきか
 
 - Access-Control-Allow-Origin
